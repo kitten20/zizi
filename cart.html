@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>zizi-cart</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./fonts/ashley/ashley.css">
+    <link rel="stylesheet" href="./fonts/avenir/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/helvetica/stylesheet.css">
+
+    <!-- styles -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/reseter.css' />
+    <link rel='stylesheet' href='style/style.css'>
+    <link rel='stylesheet' href='media/media.css'>
+    <!-- styles -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav__row container">
+            <div class="nav__column">
+                <a href="index.html">
+                    <img src="./images/header/nav/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="nav__column only-desktop">
+                <a href="">о нас</a>
+                <a href="">магазин</a>
+                <a href="">контакть1</a>
+            </div>
+            <div class="nav__column">
+                <button id="nav-item">
+                    1 товар
+                    <img src="./images/header/nav/bag.svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="nav__row only-adaptive container">
+            <div class="nav__column">
+                <a href="">о нас</a>
+                <a href="">магазин</a>
+                <a href="">контакть1</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cart container cart-container">
+        <h1 class="container__title_medium">Товары1 в корзине</h1>
+
+        <img src="./images/pages/right-blob.svg" alt="" class="container__absolute-image only-desktop">
+
+        <div class="cart__row">
+            <div class="cart__column">
+                <img src="./images/cart/1.svg" alt="">
+            </div>
+            <div class="cart__column">
+                <h2 class="cart__title">
+                    Дневной увлажняющий крем для лица “ZIZI CREAM”,
+                    <br />50 мл
+                </h2>
+
+                <p class="cart__price">
+                    2999руб.
+                </p>
+
+                <div class="cart__input">
+                    <button class="cart__button_inc">+</button>
+                    <input type="number" value="1" min="1">
+                    <button class="cart__button_dec">-</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <h1>Итого: <strong>2990 руб.</strong></h1>
+            <button class="container__button">купить</button>
+        </div>
+    </div>
+
+    <footer class="container">
+        <img src="./images/footer/1.svg" alt="" class="container__absolute-image container__absolute-image_left">
+        <img src="./images/footer/2.svg" alt="" class="container__absolute-image container__absolute-image_right">
+
+        <h1 class="container__title_small">
+            Заказчик ООО "ЭКСПРЕСС-ПРО ДВ"
+            <br />690091, Приморский Край, г. Владивосток,
+            <br />ул. Прапорщика Комарова, дом 45б
+        </h1>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

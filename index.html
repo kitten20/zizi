@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zizi-cream</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./fonts/ashley/ashley.css">
+    <link rel="stylesheet" href="./fonts/avenir/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/helvetica/stylesheet.css">
+
+    <!-- styles -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/reseter.css' />
+    <link rel='stylesheet' href='style/style.css'>
+    <link rel='stylesheet' href='media/media.css'>
+    <!-- styles -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="body-background"></div>
+
+    <div class="cart cart-popup">
+        <div class="cart-close"></div>
+
+        <h1 class="cart-title">Товары1 в корзине</h1>
+
+        <div class="cart__row">
+            <div class="cart__column">
+                <img src="./images/cart/1.svg" alt="">
+            </div>
+            <div class="cart__column">
+                <h2 class="cart__title">
+                    Дневной увлажняющий крем для лица “ZIZI CREAM”,
+                    <br />50 мл
+                </h2>
+
+                <p class="cart__price">
+                    2999руб.
+                </p>
+
+                <div class="cart__input">
+                    <button class="cart__button_inc">+</button>
+                    <input type="number" value="1" min="1">
+                    <button class="cart__button_dec">-</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart__row">
+            <div class="cart__column">
+                <img src="./images/items/2.svg" alt="">
+            </div>
+            <div class="cart__column">
+                <h2 class="cart__title">
+                    Ночной увлажняющий крем для лица “ZIZI CREAM”,
+                    <br />50 мл
+                </h2>
+
+                <p class="cart__price">
+                    2999руб.
+                </p>
+
+                <div class="cart__input">
+                    <button class="cart__button_inc">+</button>
+                    <input type="number" value="1" min="1">
+                    <button class="cart__button_dec">-</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <h1 class="cart-footer-price">Итого: <strong>2990 руб.</strong></h1>
+            <button class="container__button">купить</button>
+        </div>
+    </div>
+
+    <div class="item-popup item-popup-1" id="item-popup-1">
+        <div class="item-popup__row">
+            <button class="item-popup-cross item-popup-cross-1">
+                <img src="./images/item-popup/cross.svg" alt="">
+            </button>
+
+            <div class="item-popup__column">
+                <img src="./images/items/1.svg" alt="">
+            </div>
+
+            <div class="item-popup__column">
+                <h1 class="item-popup__title">
+                    Дневной увлажняющий крем для лица с экстрактом зизифуса “ZIZI CREAM”
+                    <br />50мл
+                </h1>
+
+                <h3 class="item-popup__price">XXXXруб.</h3>
+
+                <p class="container__description">
+                    Начните свое утро с легкого увлажняющего крема с омолаживающим эффектом. Крем глубоко увлажняет
+                    кожу, питает и тонизирует ее, делает более гладкой и упругой. Кожа насыщается витаминами, лучше
+                    восстанавливается, обновление клеток идет быстрее.
+                </p>
+
+                <button class="container__button">купить</button>
+            </div>
+        </div>
+
+        <div class="item-popup__row">
+            <img src="./images/item-popup/right-blob-desktop.svg" alt=""
+                class="container__absolute-image item-popup__blob_right only-desktop">
+            <img src="./images/item-popup/right-blob-adaptive.svg" alt=""
+                class="container__absolute-image item-popup__blob_right only-adaptive">
+            <img src="./images/item-popup/left-blob-adaptive.svg" alt=""
+                class="container__absolute-image item-popup__blob_left only-adaptive">
+
+            <h1 class="item-popup__title">
+                ZIZI CREAM отлично подойдет вам, потому что:
+            </h1>
+
+            <ul class="container__list">
+                <li class="container__description">
+                    Содержит уникальный экстракт зизифуса, который увлажняет, питает и восстанавливает кожу. Гладкая,
+                    ровная,
+                    сияющая кожа без намека на воспаление и раздражение – именно так работает ценный экстракт зизифуса.
+                </li>
+                <li class="container__description">
+                    Гипоаллергенный – не содержит отдушек, которые приводят к раздражению
+                </li>
+                <li class="container__description">
+                    Бережно справляется с воспалениями
+                </li>
+                <li class="container__description">
+                    Подходит для нормальной, жирной, сухой и обезвоженной кожи
+                </li>
+                <li class="container__description">
+                    Легко и быстро впитывается, не образует жирную, липкую пленку
+                </li>
+                <li class="container__description">
+                    Удобная упаковка, которая не допускает попадания воздуха - так крем останется свежим и сохранит свои
+                    полезные свойства как можно дольше
+                </li>
+            </ul>
+        </div>
+
+        <div class="item-popup__row">
+            <p class="container__description">
+                <span>Способ применения:</span> Утром нанесите небольшое количество крема на очищенную кожу лица.
+                Легкими
+                движениями
+                помассируйте кожу до полного впитывания крема. Чтобы ваша кожа оставалась здоровой и ухоженной, не
+                забывайте
+                наносить крем каждое утро.
+            </p>
+        </div>
+
+        <div class="item-popup__row">
+            <p class="container__description">
+                <span>Состав дневного крема:</span> ZIZI CREAM: Aqua, PERSEA GRATISSIMA (AVOCADO) OIL, GLYCINE SOJA OIL,
+                COCOS
+                NUCIFERA
+                (COCONUT) OIL, BUTYROSPERMUM PARKII (SHEA BUTTER) OIL, Grapeseed Oil, Vitis vinifera oil, GLYCERIN,
+                ZIZYPHUS JUJUBA (JUJUBE) FRUIT EXTRACT, Ceteareth-20, PEG -2 Stearete, EMULSIFYING WAX, Cetearyl
+                Alcohol,
+                propylene glycol, Acrylates/С10-30 Alkyl Acrylate Crosspolymer, PIPER NIGRUM (BLACK PEPPER) ESSENTIAL
+                OIL,
+                ALLANTOIN, PANTHENOL, CARBOMER,
+                SODIUM HYDROXIDE, Tocopheryl Acetate, Potassium sorbate, Sodium Benzoate.
+            </p>
+        </div>
+
+        <div class="item-popup__row">
+            <p class="container__description">
+                Вашей коже обязательно понравится <a href="">ночной крем ZIZI CREAM</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="item-popup item-popup-2" id="item-popup-2">
+        <div class="item-popup__row">
+            <button class="item-popup-cross item-popup-cross-2">
+                <img src="./images/item-popup/cross.svg" alt="">
+            </button>
+
+            <div class="item-popup__column">
+                <img src="./images/items/2.svg" alt="">
+            </div>
+
+            <div class="item-popup__column">
+                <h1 class="item-popup__title">
+                    Ночной питательный крем для лица с экстрактом зизифуса ZIZI CREAM
+                    <br />50мл
+                </h1>
+
+                <h3 class="item-popup__price">XXXXруб.</h3>
+
+                <p class="container__description">
+                    Настоящий витаминный коктейль для вашей красоты и молодости!
+                </p>
+
+                <button class="container__button">купить</button>
+            </div>
+        </div>
+
+        <div class="item-popup__row">
+            <img src="./images/item-popup/right-blob-desktop.svg" alt=""
+                class="container__absolute-image item-popup__blob_right only-desktop">
+            <img src="./images/item-popup/right-blob-adaptive.svg" alt=""
+                class="container__absolute-image item-popup__blob_right only-adaptive">
+            <img src="./images/item-popup/left-blob-adaptive.svg" alt=""
+                class="container__absolute-image item-popup__blob_left only-adaptive">
+
+            <p class="container__description">
+                Экстракт зизифуса в составе крема усиливает эластичность кожи, напитывает ее витаминами и необходимыми
+                микроэлементами, оказывает омолаживающее действие. А также заживляет воспаления и оказывает
+                антибактериальный эффект.
+                <br />Обновление клеток идет быстрее, восстанавливается оптимальный уровень увлажненности. Мелкие и
+                мимические
+                морщины разглаживаются, от отеков и кругов под глазами не останется и следа.
+            </p>
+
+            <p class="container__description">
+                Свежая, сияющая, отдохнувшая кожа, наполненная витаминами – теперь каждое утро ваша кожа будет именно
+                такой.
+                То, что это работа ночного крема ZIZI CREAM, пусть останется вашим маленьким секретом.
+            </p>
+
+            <p class="container__description">
+                <span>Способ применения:</span> Вечером нанесите небольшое количество крема на очищенную кожу лица.
+                Легкими
+                движениями
+                помассируйте кожу до полного впитывания крема. Подходит и необходим вашей коже для ежедневного
+                использования.
+            </p>
+
+            <p class="container__description">
+                <span>Состав ночного крема:</span> ZIZI CREAM: Aqua, Sunflower Seed Oil, THEOBROMA CACAO SEED BUTTER,
+                Persea
+                Gratissima
+                (Avocado) Oil, Cocos Nucifera, Glycerin, Cetearyl Alcohol, BEESWAX, Isopropyl Myristate, Aloe
+                barbadensis
+                (Aloe vera) Gel, SALVIA LAVANDULIFOLIA (SPANISH SAGE) OIL
+                PEG-2 STEARATE SE, ZIZYPHUS JUJUBA (JUJUBE) FRUIT EXTRACT,
+                Propylene Glycol, PANTOTHENIC ACID, Tocopheryl Acetate, Potassium sorbate, Sodium Benzoate.
+            </p>
+
+            <p class="container__description">
+                Дополните уход за кожей <a href="">дневным увлажняющим кремом ZIZI CREAM</a>
+            </p>
+        </div>
+
+        <div class="item-popup__row">
+            <p class="container__description">
+                <span>Способ применения:</span> Утром нанесите небольшое количество крема на очищенную кожу лица.
+                Легкими
+                движениями
+                помассируйте кожу до полного впитывания крема. Чтобы ваша кожа оставалась здоровой и ухоженной, не
+                забывайте
+                наносить крем каждое утро.
+            </p>
+        </div>
+
+        <div class="item-popup__row">
+            <p class="container__description">
+                <span>Состав дневного крема:</span> ZIZI CREAM: Aqua, PERSEA GRATISSIMA (AVOCADO) OIL, GLYCINE SOJA OIL,
+                COCOS
+                NUCIFERA
+                (COCONUT) OIL, BUTYROSPERMUM PARKII (SHEA BUTTER) OIL, Grapeseed Oil, Vitis vinifera oil, GLYCERIN,
+                ZIZYPHUS JUJUBA (JUJUBE) FRUIT EXTRACT, Ceteareth-20, PEG -2 Stearete, EMULSIFYING WAX, Cetearyl
+                Alcohol,
+                propylene glycol, Acrylates/С10-30 Alkyl Acrylate Crosspolymer, PIPER NIGRUM (BLACK PEPPER) ESSENTIAL
+                OIL,
+                ALLANTOIN, PANTHENOL, CARBOMER,
+                SODIUM HYDROXIDE, Tocopheryl Acetate, Potassium sorbate, Sodium Benzoate.
+            </p>
+        </div>
+
+        <div class="item-popup__row">
+            <p class="container__description">
+                Вашей коже обязательно понравится <a href="">ночной крем ZIZI CREAM</a>
+            </p>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav__row container">
+            <div class="nav__column">
+                <a href="index.html">
+                    <img src="./images/header/nav/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="nav__column only-desktop">
+                <a href="">о нас</a>
+                <a href="">магазин</a>
+                <a href="">контакть1</a>
+            </div>
+            <div class="nav__column">
+                <button id="nav-item">
+                    1 товар
+                    <img src="./images/header/nav/bag.svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="nav__row only-adaptive container">
+            <div class="nav__column">
+                <a href="">о нас</a>
+                <a href="">магазин</a>
+                <a href="">контакть1</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container">
+        <div class="header__column">
+            <img src="./images/header/left-blob.svg" alt=""
+                class="container__absolute-image container__absolute-image_left">
+
+            <h2 class="container__title_medium">для самой красивой кожи
+            </h2>
+            <p class="container__description">
+                С любовью и заботой
+            </p>
+            <button class="container__button">
+                в каталог
+            </button>
+        </div>
+        <div class="header__column">
+            <img src="./images/header/cream.svg" alt="" class="header-image">
+
+            <img src="./images/header/right-blob.svg" alt=""
+                class="container__absolute-image container__absolute-image_right">
+        </div>
+    </header>
+
+    <div class="container about">
+        <div class="about__column">
+            <img src="./images/about/image.svg" alt="" class="container__image">
+            <img src="./images/about/blob.svg" alt="" class="about-absolute-image container__absolute-image">
+        </div>
+        <div class="about__column">
+            <h1 class="container__title_big">
+                о нас
+            </h1>
+
+            <p class="container__description">
+                ZIZI CREAM – увлажнение и бережный уход для самой нежной кожи.
+                <br /> Линейка уходовой косметики для лица, шеи и зоны декольте содержит ценный экстракт уникального
+                растения
+                ЗИЗИФУС, бережно выращенного на собственных плантациях в экологически чистом месте, окруженном горами и
+                морем, без использования химии.
+            </p>
+            <p class="container__description">
+                Научный подход к требованиям кожи и польза уникальных растительных экстрактов – все это мы
+                объединили
+                для вас и вашей кожи в ZIZI CREAM.
+            </p>
+        </div>
+    </div>
+
+    <div class="container unique">
+        <div class="unique__column">
+            <img src="./images/unique/left-blob.svg" alt=""
+                class="container__absolute-image container__absolute-image_left only-desktop">
+            <img src="./images/unique/left-blob-adaptive.svg" alt=""
+                class="container__absolute-image container__absolute-image_left only-adaptive">
+
+            <p class="container__description">
+                <strong>Зизифус</strong> – это растение, все части которого уже более 4000 лет используются в медицине
+                и диетологии. А
+                также в косметологии – для лечения кожных заболеваний и несовершенств. И, конечно, для ее питания и
+                восстановления. Все потому, что плоды и листья зизифуса содержат огромное количество витаминов и
+                органических кислот, которые улучшают состояние кожи, буквально исцеляют и омолаживают ее.
+            </p>
+
+            <p class="container__description">
+                Зизифус входит в пятерку самых полезных лекарственных растений мира, наряду с женьшенем и
+                элеутерококком. Экстракт зизифуса восстанавливает кожу при дерматитах, раздражениях, прыщах,
+                аллергических высыпаниях.
+            </p>
+
+            <ul class="container__list">
+                <p class="container__description">
+                    <strong> Это не удивительно при таком богатом составе:</strong>
+                </p>
+                <li>
+                    витамины А, С, РР, Р, группы В.
+                </li>
+                <li>
+                    калий, кальций, магний, фосфор, натрий.
+                </li>
+                <li>
+                    медь, железо, цинк, марганец
+                </li>
+                <li>
+                    органические и аминокислоты
+                </li>
+            </ul>
+            <p class="container__description">
+                Множество проведенных исследований подтвердили целебные свойства зизифуса, его благотворное влияние на
+                улучшение состояния кожи.
+            </p>
+            <p class="container__description">
+                <strong>
+                    ZIZI CREAM – ваша кожа достойна лучшего!
+                </strong>
+            </p>
+        </div>
+
+        <div class="unique__column">
+            <img src="./images/unique/right-blob.svg" alt=""
+                class="container__absolute-image container__absolute-image_right only-desktop">
+            <img src="./images/unique/right-blob-adaptive.svg" alt=""
+                class="container__absolute-image container__absolute-image_right only-adaptive">
+
+            <h3 class="container__title_small">
+                В чем
+                уникальность зизифуса?
+            </h3>
+        </div>
+    </div>
+
+    <div class="usage">
+        <img src="./images/usage/left-blob.svg" alt="" class="container__absolute-image usage__absolute-image_left">
+        <img src="./images/usage/right-blob.svg" alt="" class="container__absolute-image usage__absolute-image_right">
+
+        <div class="usage__row container">
+            <h1 class="container__title_big">
+                Почему
+                <br />ZIZI CREAM?
+            </h1>
+        </div>
+        <div class="usage__row container">
+            <div class="usage__column">
+                <h1 class="container__title_gray">
+                    01
+                </h1>
+            </div>
+            <div class="usage__column">
+                <p class="container__description container__description_bottom">
+                    Возможно, вы удивитесь, но привычных очищения и увлажнения вашей коже недостаточно.
+                </p>
+
+                <p class="container__description">
+                    Чтобы оставаться
+                    упругой, гладкой и сияющей здоровьем, ей нужны питание, восстановление, защита от ультрафиолета. Тем
+                    более, воздействие окружающей среды и современный темп жизни приводят к потере эластичности и
+                    упругости кожи, снижению тонуса кожи, появляются воспаления, мимические морщинки.
+                </p>
+            </div>
+        </div>
+        <div class="usage__row container">
+            <div class="usage__column">
+                <h1 class="container__title_gray">
+                    02
+                </h1>
+            </div>
+            <div class="usage__column">
+                <p class="container__description container__description_usage">
+                    Да, посещение косметолога и различные бьюти-процедуры окажут отличный эффект, но ежедневный домашний
+                    уход - это то, без чего невозможно получить красивую, упругую, свежую и наполненную здоровьем кожу.
+                </p>
+            </div>
+        </div>
+        <div class="usage__row container">
+            <div class="usage__column">
+                <h1 class="container__title_gray">
+                    03
+                </h1>
+            </div>
+            <div class="usage__column">
+                <p class="container__description container__description_bottom">
+                    ZIZI CREAM с экстрактом зизифуса создан специально для домашнего ухода за кожей.
+                </p>
+                <p class="container__description container__description_bottom">
+                    Отсутствие отдушек в составе делает крем гипоаллергенным.
+                </p>
+                <p class="container__description">
+                    Уникальные компоненты наполнят вашу кожу
+                    витаминами и органическими кислотами, замедлят процесс старения, защитят от УФ-излучения и справятся
+                    с воспалениями.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="items container">
+        <img src="./images/items/left-blob.svg" alt="" class="container__absolute-image items__absolute-image_left">
+        <img src="./images/items/right-blob.svg" alt="" class="container__absolute-image items__absolute-image_right">
+
+        <h1 class="container__title_big">товарь1</h1>
+
+        <div class="items-container">
+            <div class="item">
+                <div class="item__header">
+                    <img src="./images/items/1.svg" alt="">
+                </div>
+
+                <div class="item__footer">
+                    <h2 class="item__footer-title">
+                        Дневной увлажняющий крем для лица с экстрактом зизифуса “ZIZI CREAM”
+                        <br />50мд
+                    </h2>
+
+                    <p class="item__footer-price">хххх руб.</p>
+
+                    <button class="container__button" id="button-popup-1">
+                        подробнее
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item__header">
+                    <img src="./images/items/2.svg" alt="">
+                </div>
+
+                <div class="item__footer">
+                    <h2 class="item__footer-title">
+                        Ночной увлажняющий крем для лица с экстрактом зизифуса “ZIZI CREAM”
+                        <br />50мд
+                    </h2>
+
+                    <p class="item__footer-price">хххх руб.</p>
+
+                    <button class="container__button" id="button-popup-2">
+                        подробнее
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item__header">
+                    <img src="./images/items/1.svg" alt="">
+                </div>
+
+                <div class="item__footer">
+                    <h2 class="item__footer-title">
+                        Дневной увлажняющий крем для лица с экстрактом зизифуса “ZIZI CREAM”
+                        <br />50мд
+                    </h2>
+
+                    <p class="item__footer-price">хххх руб.</p>
+
+                    <button class="container__button" id="button-popup-2">
+                        подробнее
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item__header">
+                    <img src="./images/items/2.svg" alt="">
+                </div>
+
+                <div class="item__footer">
+                    <h2 class="item__footer-title">
+                        Ночной увлажняющий крем для лица с экстрактом зизифуса “ZIZI CREAM”
+                        <br />50мд
+                    </h2>
+
+                    <p class="item__footer-price">хххх руб.</p>
+
+                    <button class="container__button" id="button-popup-2">
+                        подробнее
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="advantages">
+        <h1 class="container__title_big container">
+            Уникальны1е компоненты крема
+        </h1>
+
+        <div class="advantages-container only-desktop">
+            <div class="advantage">
+                <h1 class="container__title_gray">01</h1>
+                <p class="advantage__title">Экстракт листьев и плодов зизифуса</p>
+                <p class="advantage__description">Настоящий кладезь пользы! Насыщает кожу необходимыми витаминами,
+                    микроэлементами и органическими кислотами. Способствует обновлению клеток и восстановлению защитных
+                    свойств кожи. Не зря зизифус называют “Деревом жизни”, которое продлевает молодость, красоту и
+                    здоровье!</p>
+            </div>
+            <div class="advantage">
+                <h1 class="container__title_gray">02</h1>
+                <p class="advantage__title">Масло ши</p>
+                <p class="advantage__description">Питательный эликсир для вашей кожи. Увлажняет, смягчает,
+                    восстанавливает защитные функции кожи. </p>
+            </div>
+            <div class="advantage">
+                <img src="./images/advantages/right-blob-desktop.svg" alt=""
+                    class="container__absolute-image advantages__absolute-image">
+
+                <h1 class="container__title_gray">03</h1>
+                <p class="advantage__title">Витамин е</p>
+                <p class="advantage__description">Отличный антиоксидант, который защищает кожу от воздействия вредных
+                    веществ. Снижает негативное воздействие ультрафиолета, замедляет процесс старения клеток кожи. </p>
+            </div>
+            <div class="advantage">
+                <img src="./images/advantages/left-blob-desktop.svg" alt=""
+                    class="container__absolute-image advantages__absolute-image">
+
+                <h1 class="container__title_gray">04</h1>
+                <p class="advantage__title">Эластин </p>
+                <p class="advantage__description">Увлажняет верхний слой кожи, обеспечивает ей упругость и эластичность,
+                    смягчает и улучшает её внешний вид. </p>
+            </div>
+            <div class="advantage">
+                <h1 class="container__title_gray">05</h1>
+                <p class="advantage__title">Аллантоин </p>
+                <p class="advantage__description">Смягчает роговой слой, способствуя удалению отмерших клеток.</p>
+            </div>
+            <div class="advantage">
+                <h1 class="container__title_gray">06</h1>
+                <p class="advantage__title">Коллаген </p>
+                <p class="advantage__description">Уусиливает омолаживающее и увлажняющее действие эластина. Возвращает
+                    коже мягкость, оказывает разглаживающие действие. Подтянутый овал лица, упругая кожа – все это
+                    благодаря коллагену. </p>
+            </div>
+            <div class="advantage">
+                <h1 class="container__title_gray">07</h1>
+                <p class="advantage__title">Масло какао</p>
+                <p class="advantage__description">Незаменимое средство для ухода за сухой и склонной к шелушению кожи.
+                    Отлично защищает и восстанавливает кожу от морозов. </p>
+            </div>
+            <div class="advantage">
+                <h1 class="container__title_gray">08</h1>
+                <p class="advantage__title">Масло авокадо</p>
+                <p class="advantage__description">Питает кожу, активизирует кислородный обмен в клетках кожи. Хотите,
+                    чтобы кожа была подтянутой и свежей - масло авокадо обязательно должно быть в составе уходового
+                    средства. </p>
+            </div>
+            <div class="advantage">
+                <h1 class="container__title_gray">09</h1>
+                <p class="advantage__title">Гель алоэ вера</p>
+                <p class="advantage__description">Спасение для вашей кожи. Способствует заживлению и восстановлению
+                    кожи, защищает от ультрафиолета. Успокаивает, снимает раздражения и воспаления. </p>
+            </div>
+        </div>
+
+        <div class="swiper advantages-swiper only-adaptive">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="advantages__row container">
+                        <h1 class="container__title_gray">01</h1>
+                        <p class="advantage__title">Экстракт листьев и плодов зизифуса</p>
+                        <p class="advantage__description">Настоящий кладезь пользы! Насыщает кожу необходимыми
+                            витаминами,
+                            микроэлементами и органическими кислотами. Способствует обновлению клеток и восстановлению
+                            защитных
+                            свойств кожи. Не зря зизифус называют “Деревом жизни”, которое продлевает молодость, красоту
+                            и
+                            здоровье!</p>
+                    </div>
+
+                    <div class="advantages__row container">
+                        <img src="./images/advantages/right-blob-adaptive.svg" alt=""
+                            class="container__absolute-image advantages__absolute-image">
+
+                        <h1 class="container__title_gray">02</h1>
+                        <p class="advantage__title">Масло ши</p>
+                        <p class="advantage__description">Питательный эликсир для вашей кожи. Увлажняет, смягчает,
+                            восстанавливает защитные функции кожи.
+                        </p>
+                    </div>
+
+                    <div class="advantages__row container">
+                        <h1 class="container__title_gray">03</h1>
+                        <p class="advantage__title">Витамин Е</p>
+                        <p class="advantage__description">Отличный антиоксидант, который защищает кожу от воздействия
+                            вредных веществ. Снижает негативное воздействие ультрафиолета, замедляет процесс старения
+                            клеток кожи. </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="advantages__row container">
+                        <h1 class="container__title_gray">04</h1>
+                        <p class="advantage__title">Эластин </p>
+                        <p class="advantage__description">Увлажняет верхний слой кожи, обеспечивает ей упругость и
+                            эластичность, смягчает и улучшает её внешний вид.
+                        </p>
+                    </div>
+
+                    <div class="advantages__row container">
+                        <img src="./images/advantages/right-blob-adaptive.svg" alt=""
+                            class="container__absolute-image advantages__absolute-image">
+
+                        <h1 class="container__title_gray">05</h1>
+                        <p class="advantage__title">Аллантоин </p>
+                        <p class="advantage__description">Смягчает роговой слой, способствуя удалению отмерших клеток.
+                        </p>
+                    </div>
+
+                    <div class="advantages__row container">
+                        <h1 class="container__title_gray">06</h1>
+                        <p class="advantage__title">Коллаген </p>
+                        <p class="advantage__description">Уусиливает омолаживающее и увлажняющее действие эластина.
+                            Возвращает коже мягкость, оказывает разглаживающие действие. Подтянутый овал лица, упругая
+                            кожа – все это благодаря коллагену.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="advantages__row container">
+                        <h1 class="container__title_gray">07</h1>
+                        <p class="advantage__title">Масло какао </p>
+                        <p class="advantage__description">Незаменимое средство для ухода за сухой и склонной к шелушению
+                            кожи. Отлично защищает и восстанавливает кожу от морозов.
+                        </p>
+                    </div>
+
+                    <div class="advantages__row container">
+                        <img src="./images/advantages/right-blob-adaptive.svg" alt=""
+                            class="container__absolute-image advantages__absolute-image">
+
+                        <h1 class="container__title_gray">08</h1>
+                        <p class="advantage__title">Масло авокадо </p>
+                        <p class="advantage__description">Питает кожу, активизирует кислородный обмен в клетках кожи.
+                            Хотите, чтобы кожа была подтянутой и свежей - масло авокадо обязательно должно быть в
+                            составе уходового средства.
+                        </p>
+                    </div>
+
+                    <div class="advantages__row container">
+                        <h1 class="container__title_gray">09</h1>
+                        <p class="advantage__title">Гель алоэ вера </p>
+                        <p class="advantage__description">Спасение для вашей кожи. Способствует заживлению и
+                            восстановлению кожи, защищает от ультрафиолета. Успокаивает, снимает раздражения и
+                            воспаления.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <img src="./images/footer/1.svg" alt="" class="container__absolute-image container__absolute-image_left">
+        <img src="./images/footer/2.svg" alt="" class="container__absolute-image container__absolute-image_right">
+
+        <h1 class="container__title_small">
+            Заказчик ООО "ЭКСПРЕСС-ПРО ДВ"
+            <br />690091, Приморский Край, г. Владивосток,
+            <br />ул. Прапорщика Комарова, дом 45б
+        </h1>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script>
+        let advantagesSwiper = new Swiper(".advantages-swiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+// vars
+$main-padding: 150px;
+$main-laptop-padding: 90px;
+$main-tablet-padding: 45px;
+$main-phone-padding: 20px;
+
+$main-black: #26322D;
+$main-mint: #8FAB9F;
+
+$avenir: "Avenir Next Cyr", sans-serif;
+// vars
+
+@mixin absoluteImagesPosition($property) {
+    .container__absolute-image_left {
+        left: -$property;
+    }
+
+    .container__absolute-image_right {
+        right: -$property;
+    }
+}
